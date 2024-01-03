@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: auto;
+}
+
+.name{
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg);
+    height: 100vh;
+    background-size : cover;
+    border-bottom: 8px solid gray;
+}
+.dark{
+    background-color: rgba(0, 0, 0, 0.548);
+    height: 100vh;
+}
+.flex{
+    display: flex;
+    color: white;  
+}
+
+.content h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(167, 148, 148);
+    font-size: 2em;
+}
+
+.content h3{
+    padding-left: 20px;
+    padding-top: 2px;
+    color: rgb(148, 184, 158);
+}
+.about{
+    background-color: black;
+    height: 75vh;
+    background-size: cover;
+    color: aliceblue;
+    padding: 60px;
+    font-size: 1.5em;
+    border-bottom: 8px solid gray;
+}
+.projects{
+    background-color: black;
+    height: 45vh;
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+    padding: 60px;
+    display: flex;
+    padding-top: 10px;
+    border-bottom: 8px solid gray;
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+
+}
+
